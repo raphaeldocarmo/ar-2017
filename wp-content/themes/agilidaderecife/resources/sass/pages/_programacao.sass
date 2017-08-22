@@ -1,0 +1,46 @@
+.programacao
+    .invisible
+        display: block !important
+        
+    .timetable-nav
+        display: none
+        
+    .timetable-title,
+    & > p
+        display: none
+    
+    .timetable-container
+        font-family: $family-sans-serif
+    
+    .col-title
+        line-height: 2rem
+        background-color: $black
+        
+    .activite
+        @extend .columns
+        @extend .columns.is-vcentered
+        @extend .columns.is-multiline
+        
+        .time,
+        .acttitle,
+        .sy-actincelltext
+            @extend .column
+            text-align: left
+        .time
+            @extend .column.is-narrow
+            text-align: center
+            
+            .sy-start,
+            .sy-end
+                color: $grey
+            
+            .sy-start:after
+                content: " - "
+                
+            .sy-separator
+                display: none
+        .acttitle
+            @extend .column.is-one-third
+            
+            
+            

@@ -1,0 +1,12 @@
+<svg width="390" height="146" viewBox="0 0 390 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bg-title-palestrantes</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3774 2072)">
+<g id="bg-title-palestrantes">
+<use xlink:href="#path0_fill" transform="translate(-3774 -2072)" fill="#E42513"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 370 146L 0 146L 0 0L 390 0L 370 146Z"/>
+</defs>
+</svg>

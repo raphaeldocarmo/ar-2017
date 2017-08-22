@@ -1,0 +1,18 @@
+<svg width="317" height="99" viewBox="0 0 317 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>button-1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3035 2279)">
+<g id="button-1">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-3034.1 -2279)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 305.2 2.80005L 169.4 0L 76.5 0L 5.1 4.09998L 2.44141e-05 4.40002L 0.199976 8.90002L 1.69998 33.9L 0.6 94L 0.500024 98.4L 5.1 98.5L 23.6 98.8L 95.1 98.8L 141.5 93.3L 188 98.8L 309.4 98.8L 152.3 85.1L 37.9 85.1L 5.1 85.9L 13.2 94L 10.9 8.90002L 5.1 14.7L 40.8 13.8L 140.9 6.90002L 237.3 15.1L 309.4 12.6L 305.8 8.90002L 308.7 94L 315.6 11.8"/>
+</defs>
+</svg>

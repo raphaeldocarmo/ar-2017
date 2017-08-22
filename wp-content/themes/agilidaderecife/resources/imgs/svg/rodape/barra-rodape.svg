@@ -1,0 +1,14 @@
+<svg width="1200" height="82" viewBox="0 0 1200 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>barra-rodape</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3773 -3198)">
+<g id="barra-rodape">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-3773 3198.4)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1200 81.6L 0 81.6L 0 14.9999L 188.9 7.4999L 263.9 7.4999L 646.4 15.9999L 857.2 7.4999L 1077 13.4999L 1200 -9.76563e-05L 1200 81.6Z"/>
+</defs>
+</svg>

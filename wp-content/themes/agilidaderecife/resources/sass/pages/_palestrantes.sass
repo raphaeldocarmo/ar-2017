@@ -1,0 +1,78 @@
+#huge_it_portfolio_content_1,
+#huge_it_portfolio_container_1
+    opacity: 1 !important
+    
+#huge-it-container-loading-overlay_1
+    display: none
+    
+.huge_it_portfolio_container 
+    +display-flex
+    +flex-wrap(wrap)
+    +align-items(center)
+    +justify-content(center)
+    height: auto !important
+    width: auto !important
+    .portelement
+        position: relative !important
+        left: auto !important
+        top: auto !important
+    
+    .dropdownable,
+    .lighboxable
+        height: auto !important
+        max-width: 100% !important
+        
+    &.view-toggle-up-down
+        max-width: 1000px !important
+        margin: 0 auto
+        .portelement
+            +flex(1 0)
+            min-width: 250px
+            width: 30% !important
+            max-width: 400px !important
+            background-color: $warning
+            color: $black
+            float: none
+            
+        .image-block
+            width: 100% !important
+            height: 160px !important
+            overflow: hidden
+            
+            a,
+            img
+                width: 100% !important
+            
+            
+        .title-block
+            height: 1.3rem
+            .open-close-button
+                display: none
+            .title
+                color: $black
+                font-size: 1.25rem !important
+            
+        .wd-portfolio-panel
+            position: relative
+            top: auto
+            font-family: $family-sans-serif
+            height: auto
+            width: auto !important
+    
+.palestrantes
+    position: relative
+    background-image: url(../imgs/svg/bg-palestrantes.svg)
+    background-repeat: no-repeat
+    background-size: 100% auto
+    background-position: bottom center
+    
+.palestrantes__title
+    position: relative
+    background-image: url(../imgs/svg/bg-title-palestrantes.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    max-width: 250px
+    +box-sizing(border-box)
+    padding: 8px 16px
+    color: $white
+    

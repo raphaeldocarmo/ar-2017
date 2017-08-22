@@ -1,0 +1,63 @@
+.shiftnav
+    &.shiftnav-skin-standard-dark 
+        ul.shiftnav-menu 
+            & > li.menu-item 
+                +transition(all ease .5s)
+            
+                & > .shiftnav-target
+                    font-size: .75rem
+                &.current-menu-item,
+                &:hover
+                    & > .shiftnav-target
+                        background-color: $black !important
+                        color: $secondary !important
+                        +text-shadow(none)
+                        border-left: 5px solid $secondary
+
+#shiftnav-toggle-main,
+.shiftnav-toggle-main-block
+    min-height: 70px
+    +box-shadow(0 0 10px rgba($black, .5))
+    .shiftnav-menu-title,
+    .shiftnav-main-toggle-content
+        text-align: center
+        a
+            display: block
+            background-image: url(../imgs/svg/logo-agilidade-recife-branca.svg) 
+            background-repeat: no-repeat 
+            background-size: contain
+            background-position: center center
+            width: 180px
+            height: 60px
+            overflow: hidden
+            text-indent: -99999px
+            margin: .25rem !important
+    .shiftnav-main-toggle-content
+        text-align: left
+        padding: .15rem !important
+        a
+            width: 150px
+            height: 50px
+            margin: .15rem !important
+            
+@media screen and (max-width: 800px)
+
+    #shiftnav-toggle-main,
+    .shiftnav-toggle-main-block
+        .shiftnav-main-toggle-content
+            text-align: left
+            padding: .05rem !important
+            a
+                width: 100px !important
+                height: 50px !important
+                margin: .05rem !important
+                
+    .inscricao-home
+        .button
+            height: 55px
+            +box-sizing(border-box)
+            padding: .5rem
+
+.shiftnav,
+.shiftnav-toggle-burger
+    display: none !important

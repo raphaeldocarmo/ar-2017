@@ -1,0 +1,77 @@
+.logo-agilidade-recife
+    position: absolute
+    margin: 3vw
+    
+.inscricao-home
+    position: fixed
+    right: 0
+    top: 0
+    z-index: 9999999
+    margin: 0
+
+.scenes
+    position: relative
+    .scene
+        position: absolute !important
+        top: auto !important
+        left: auto !important
+        img
+            height: 100%
+        
+    .background-scene
+        bottom: 0
+        width: 100%
+        
+    .figure-sun
+        right: 20vw
+        top: 4vh !important
+        height: 20vh
+    
+    .figure-house
+        bottom: 20vh
+        right: 10vw
+        height: 20vh
+    
+    .figure-ballon
+        bottom: 100%
+        right: 50%
+        position: absolute
+        height: 13vh
+    
+    .figure-tree
+        bottom: 10vh
+        right: -3vh
+        height: 60vh
+        
+    .event-day
+        top: 10vh !important
+        left: 10vh !important
+        .event-local
+            background-color: $white
+        .event-date
+            background-color: $black
+            padding: .15rem
+            text-align: center
+            width: 75px
+            margin: 0 auto 0 0
+            .title,
+            .subtitle
+                color: $white
+@media screen and (max-width: 800px)
+    .scenes
+        .figure-house
+            bottom: 5%
+        .event-local
+            white-space: nowrap
+            .subtitle,
+            .title
+                display: inline
+
+.creditos-ilustracoes
+    position: absolute
+    left: 10px
+    bottom: 10px
+    font-size: .35rem
+    font-family: $family-sans-serif
+    a
+        color: $white

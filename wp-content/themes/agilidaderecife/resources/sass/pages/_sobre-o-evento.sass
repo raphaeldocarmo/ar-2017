@@ -1,0 +1,63 @@
+$caixa-title--width: 120px
+$caixa-title--margin: 30vw
+$caixa-title: calc($caixa-title--width + $caixa-title--margin)
+
+.sobre-o-evento
+    position: relative
+    margin-top: -30vh
+    background-color: transparent
+    
+    &__title
+        +box-sizing(border-box)
+        position: absolute
+        background: $red
+        color: $white
+        padding: 16px
+        max-width: $caixa-title--width
+        font-size: 32px
+        text-align: center
+        left: $caixa-title--margin
+        top: 25vh
+        
+    &__descricao
+        position: absolute
+        right: 5vw
+        top: 25vh
+        max-width: 40vw
+        text-align: center
+        background-color: rgba($black, .9)
+        color: $white
+        padding: 16px
+        +box-sizing(border-box)
+        font-family: $family-sans-serif
+        font-size: .6rem
+        line-height: .75rem
+        .vertical-scroll
+            max-height: 50vh
+    
+    &__background
+        position: absolute
+        bottom: 0
+        left: 26vw
+        height: 90vh
+
+@media screen and (max-width: 800px)
+    .sobre-o-evento
+        padding: 0
+        &.hero
+            min-height: 170vh !important
+    .sobre-o-evento__title
+        top: 20vh
+        
+    .sobre-o-evento__descricao
+        max-width: 100%
+        top: 52vh
+        position: relative
+        right: auto
+        
+        .vertical-scroll
+            max-height: 200vh
+            
+            p
+                margin: 0
+                padding: 0

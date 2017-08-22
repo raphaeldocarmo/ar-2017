@@ -1,0 +1,22 @@
+<svg width="1201" height="420" viewBox="0 0 1201 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>fundo-amarelo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(3773 3057)">
+<g id="fundo-amarelo">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-3773 -3056.4)" fill="#FAD723"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-3773 -2740.3)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-2912.5 -2752.6)" fill="#1D1D1B"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1199 300.4L 1173.9 297.4L 1130.3 296.7L 1111.3 299.4L 1102.5 290.4L 1091.6 277.9L 1111.3 262.7L 1138.3 257.4C 1138.3 257.4 1154.5 253.4 1156.5 251.4C 1158.5 249.4 1170.5 205.9 1170.5 205.9L 1173.9 184.4L 1181.1 139.5L 1095.5 154.4L 1097.5 176.1L 1094 204.4L 1076 213.4L 970.5 205.4L 910 202.4L 903.5 190.9L 919.5 169.9L 917.5 127.9L 886 116.4L 825.5 101.9L 755.3 100.5L 735 90.7L 667.6 97.1L 664.2 85.2L 456.5 53.4L 295.1 49.4L 284.8 13.4L 91.5 14.7L 83 40.4L 0 6.10352e-06L 0 411.4L 1200.6 318.4L 1200.6 300.8L 1199 300.4Z"/>
+<path id="path1_fill" d="M 0 94.1L 1200.6 1.2207e-05L 1200.4 7.3L 0.6 102.7L 0 94.1Z"/>
+<path id="path2_fill" d="M 0 2.44141e-05L 17.8 70.3L 31.6 70.3L 48.5 2.44141e-05L 33.6 2.44141e-05L 24.2 24.5L 8.90002 2.44141e-05L 0 2.44141e-05Z"/>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+.sobre-recife
+    font-family: $family-sans-serif
+    font-size: .5rem 
+    position: relative
+    z-index: 1
+    margin-top: 2rem
+    &__content
+        max-width: 800px
+        margin: 0 auto
+    &__title
+        font-family: $family-primary
+        padding: .25rem .5rem
+        background-color: $black
+        width: 200px
+        margin: 0 auto
+        text-align: center
+
+.grid-gallery-photos
+    +display-flex
+    +flex-wrap(wrap)
+    +justify-content(center)
+    
+    figcaption
+        display: none
+    
+    .grid-gallery-caption
+        display: block !important
+    .gg-link
